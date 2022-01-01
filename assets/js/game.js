@@ -13,6 +13,13 @@ console.log(enemyNames[0]);
 console.log(enemyNames[3]);
 
 // fight function (now with parameter for enemy's name)
+
+// create function
+var fight = function() {
+  window.alert("Welcome to Robot Gladiators!");
+};
+// execute function
+fight();
 var fight = function(enemyName) {
   while (playerHealth > 0 && enemyHealth > 0) {
     // ask player if they'd like to fight or run
